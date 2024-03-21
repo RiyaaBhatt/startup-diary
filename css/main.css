@@ -487,7 +487,7 @@ h5,.font-20{font-family:'Conv_Mundo Sans Std Bold';font-size:20px;line-height:1;
 .menuopen .chatdiv a:hover .hovershow{opacity:1;}
 .menuopen .chaticon svg{fill:#fff;}
 .menuopen .chaticon svg path{stroke:#fff;}
-.logo-text-black{max-width:142px;overflow:hidden;transition:all 0.5s ease;}
+.logo-text-black{max-width:320px;overflow:hidden;transition:all 0.5s ease;}
 .logo-text-black img{max-width:initial;}
 .sticky.header .logo-text-black,.menuopen .logo-text-black{max-width:0%;}
 .changetext{transform:translateY(0px);transition:all 0.5s ease;}
