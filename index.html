@@ -567,5 +567,26 @@ test.</div>					</div>
 <script src="js/main.js"></script>
 <!-- script end -->
 
+<!-- score count script (22/03)-->
+<script>
+	$('.answer_value').change(function(){
+		let  val_t = 0;
+		$(".answer_value").each(function(){
+			if($(this).prop('checked')){
+				val_t += parseInt($("[id="+$(this).attr("id")+"]:checked").attr('data-value'));
+			}
+		});
+		$(".data_point").html((val_t+"").padStart(2, '0') +'/'+$(".data_point").attr('data-point_answer'));
+		$(".p_data_point").html((val_t+"").padStart(2, '0'));
+		$( ".result_slab" ).each(function( index ) {
+			if(parseInt($( this ).data('start')) <= val_t && val_t <= parseInt($( this ).data('end'))){
+				$('.result_slab').hide();
+				$(this).show();
+			}
+		});
+	});
+	$('.result_slab').first().show();
+</script>
+
 
 </main></body></html>
