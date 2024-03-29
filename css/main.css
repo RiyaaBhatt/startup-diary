@@ -560,59 +560,6 @@ a.moveuptextmenu.testlink span{padding-right: 90px;}
 .frmopen .expertimenu > ul > li > a::before, .frmopen .expertimenu > ul > li > a::after{background-color: #fff;}
 /*menu css end*/
 
-/* Quick connect pop up start */
-.quotepop{position:fixed;top:0;left:0;width:100%;height:100%;color:#fff;z-index:-1;opacity:0;
-    -webkit-transition:all 0.3s  ease 0.4s;-o-transition:all 0.3s  ease 0.4s;transition:all 0.3s  ease 0.4s;overflow:auto;background-color:#0095e0;color:#fff;padding:250px 0px;}
-.frmopen.quotepop{opacity:1;z-index:90}
-.penicn{opacity:1;transition:all 0.1s ease;position: relative;}
-.frmopen .penicn{opacity:0;}
-.closeicn{position:absolute;opacity:0;transition:all 0.1s ease;}
-.frmopen .closeicn{opacity:1;}
-
-.quickfrmtitle h2{margin-bottom:10px;}
-.quickfrm{counter-reset:row-count;}
-
-label.labelfocus{color:#fff;}
-
-.frmopen .menu-toggle,.frmopen .chatdiv a{color:#fff;}
-.frmopen .chaticon svg path{stroke:#fff;}
-.frmopen .chaticon svg{fill:#fff;}
-.frmopen .menu-toggle .navbar::before,.frmopen .menu-toggle .navbar::after{background-color:#fff;}
-.frmopen .logo-text-black{max-width:0%;}
-.checkborderbox{padding-bottom:15px;border-bottom:1px solid #66bfec;display:flex;align-items:center;}
-/*.checkborderbox label::before{display:none;margin-bottom:0px;}*/
-.checkborderbox label{color:#77caf4; font-family:'Conv_Mundo Sans Std Medium';margin-right:50px;display:inline-block;vertical-align:middle;width:auto;padding-left: 30px;position: relative;margin-bottom: 0px;line-height: 1;}
-
-.quickfrm .fromgroup:nth-last-child(2) label{color: #fff;}
-.quotepop .button-submit-white{background-color:transparent;border:1px solid #fff;width: 200px;height: 200px;border-radius: 100%;}
-.quotepop .button-submit-white::before{background-color:#fff;border:none;border-radius: 100%;}
-.quotepop .button-submit-white input[type="submit"]{color:#fff;}
-.quotepop .button-submit-white:hover input[type="submit"]{color:#000;}
-.quotepop .button-white-circle input[type="submit"] {background-color: transparent; display: inline-block; font-family: 'Conv_Mundo Sans Std Bold'; font-size: 18px; letter-spacing: 2px;text-transform: uppercase; color: #000; border: none;width: 100%;height: 100%; }
-.blue-circle-btn-div{display:none;}
-body.frmopen{overflow:hidden;}
-.fromgroup .uploadBox label::before{display:none;}
-.uploadBox input[type="file"]{display:none;}
-.uploadBox label{color:#fff;position:relative;font-size:18px;cursor:pointer;margin-bottom:0px;border:1px solid #77caf4;padding:33px 70px;width:initial;transition:all 0.2s ease-out;font-family: 'Conv_Mundo Sans Std Medium';}
-.fromgroup .uploadBox{display:none;margin-top:25px;}
-.fromgroup .uploadBox label::after{content:"";position:absolute;z-index:-1;top:0;left:0;right:0;bottom:0;background:#fff;-webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:0 50%;transform-origin:0 50%;-webkit-transition:transform 0.2s ease-out;transition:transform 0.2s ease-out;}
-.fromgroup .uploadBox label:hover::after{transform:scaleX(1);}
-.fromgroup .uploadBox label:hover{color:#000;}
-.uploadBox .selected{color:#000;}
-.uploadBox label.selected::after{transform:scaleX(1);}
-.fromgroup .uploadBox small{margin-top:5px;font-size:20px;color:#77caf4;}
-.moblefootertext{display:none;}
-.moblefootertext span{font-size:24px;display:block;padding:20px 0px;}
-
-.grid-1-offset.btnspan{margin-left: 0px;}
-.irs--big{height: 75px;}
-.irs--big .irs-line{border-radius: 0px;background: transparent;height: 20px;border-color: #fff;top: 40px;}
-.irs--big .irs-bar{height: 20px;border-radius: 0px;background: #fff;box-shadow: none;border: none;top: 40px;}
-.irs--big .irs-handle{width: 50px;height: 50px;background: #fff !important;box-shadow: none !important;border: none !important;}
-.irs--big .irs-from, .irs--big .irs-to, .irs--big .irs-single{background: transparent;font-size: 20px;font-family:'Conv_Mundo Sans Std Regular';padding: 1px 0px;font-size: 16px;}
-.irs-from, .irs-to, .irs-single{top: -5px;}
-/* Quick connect pop up end */
-
 /* Litsmu test page css start */
 .white-bg{background-color: #fff;}
 .allquestionrow{counter-reset: row-count;}
